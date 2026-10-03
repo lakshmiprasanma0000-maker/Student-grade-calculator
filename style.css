@@ -1,0 +1,94 @@
+/* Basic page styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main calculator box */
+
+.container {
+    max-width: 450px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+
+h1 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+/* Subject labels */
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    color: #334155;
+    font-weight: bold;
+}
+
+/* Input fields */
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Calculate button */
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 25px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Result area */
+
+#result {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #eff6ff;
+    border-radius: 8px;
+    text-align: center;
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+/* Mobile layout */
+
+@media (max-width: 500px) {
+    .container {
+        padding: 20px;
+        margin: 10px auto;
+    }
+}
